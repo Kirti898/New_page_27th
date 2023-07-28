@@ -47,9 +47,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* img {
+img {
   max-width: 100%;
-} */
+  width:auto;
+
+}
 
 h1,
 h2,
@@ -69,7 +71,7 @@ a {
 
 h1 {
   color: #FFF;
- 
+  margin-bottom: 0;
   font-size: 70px;
   font-style: normal;
   font-weight: 700;
@@ -78,16 +80,17 @@ h1 {
 
 h3 {
   color: var(--dark-blue, #14263B);
- 
+  margin-bottom: 0;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 13px;
 }
 
 h2 {
   color: #000;
- 
+  margin-bottom: 0;
   font-size: 38px;
   font-style: normal;
   font-weight: 500;
@@ -124,9 +127,10 @@ h5 {
   text-transform: uppercase;
 }
 
+
 h6 {
   color: var(--dark-blue, #14263B);
- 
+  margin-bottom: 0;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -141,7 +145,69 @@ h6 {
   font-weight: 500;
   line-height: normal;
 } */
+.half_heading{
+color: var(--dark-blue, #48DE80);
 
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.second_section_heading{
+color: #48DE80;
+font-size: 38px;
+font-weight: 500;
+
+}
+.year_1 p{
+color: #FFF;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 0;
+border-radius: 50px;
+border: 1px solid #FFF;
+background: #00CFDC;
+/* width:30%; */
+text-align: center;
+
+}
+.year_2 p{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  border-radius: 50px;
+  border: 1px solid #FFF;
+  background: #14D6C3;
+  /* width:30%; */
+  text-align: center;
+  
+  }
+  .year_3 p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: #2CDDA6;
+    /* width:30%; */
+    text-align: center;
+    
+    }
+    .year_4 p{
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 0;
+      border-radius: 50px;
+      border: 1px solid #FFF;
+      background: #48E783;
+      
+      /* width:30%; */
+      text-align: center;
+      
+      }
 .small p{
   color: var(--dark-blue, #14263B);
  
@@ -149,13 +215,14 @@ h6 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 0;
 }
 
 .medium p {
   color: var(--neutral-colors-color-600, #6E6C83);
  
   /* font-feature-settings: 'clig' off, 'liga' off; */
-  
+  text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -173,16 +240,16 @@ h6 {
 
 .smallest p{
   color: var(--text-color, #676E88);
- 
+  margin-bottom: 0;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
-.bottom_paragraphh p{
+.bottom_paragraph p{
  
   color: var(--dark-blue, #14263B);
-  
+  margin-bottom: 0;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -239,10 +306,12 @@ label {
 }
 
 ::placeholder {
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 140%;
-  color: #666;
+color: #949494;
+font-family: "DM Sans", sans-serif;
+font-size: 15.643px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 a {
@@ -312,15 +381,15 @@ button {
   position: relative;
   z-index: 2;
   border: 1px solid #2B6459;
-  border-radius: 6px;
+  border-radius: 10px;
   /* background: transparent; */
 }
 
 button:hover {
   background: #fff;
-  color: #0B3694;
+  color: #2B6459;
   transition: all 0.3s ease-in;
-  border: 1px solid  #0B3694; 
+  border: 1px solid #2B6459; 
 }
 
 /* Table Styling */
@@ -328,7 +397,13 @@ button:hover {
 /* Form Styling */
 
 /* ul-li Styling */
-
+.placeholder{
+  color: #949494;
+  font-size: 15.643px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* Global classes */
 
 .all-text-white,
@@ -416,6 +491,7 @@ button:hover {
   h1 {
     font-size: 60px;
     line-height: 120%;
+    
   }
 
   h2 {
@@ -442,4 +518,62 @@ button:hover {
     font-size: 10px;
     line-height: 17px;
   }
+ 
+}
+
+
+/* Section-02  */
+
+.top_one p {
+  color: #00ff5f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.top_two p {
+  /* width: 581px; */
+  color: #fff;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.top_two_subpart span {
+  color: #00ff5f;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top_three p {
+  color: #00ff5f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 9px;
+}
+.top_four p {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.top_five p {
+  color: #fff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
 }
