@@ -149,8 +149,8 @@
 .second_section{
     padding:118px 0;
     background: #008080;
-    border-left: 3px solid  #96f1b8;
-    border-right: 3px solid  #96f1b8;
+    border-left: 1px solid  #96f1b8;
+    border-right: 1px solid  #96f1b8;
 }
 
 .second_section .second_section_content .all_content .left_content .first_bottom_content{
